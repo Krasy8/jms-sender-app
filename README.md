@@ -11,6 +11,9 @@ This app will allow to push a jms message to an existing ActiveMQ queue by passi
   - destination, being the name of the queue
   - message as a String.
 
+# Configuration
+Please change the default configuration in application.properties to actual values corresponding with where you want to push the message.
+
 
 # Run the app
 You can run the app by executing command: `mvn spring-boot:run` in the root directory of the project.
